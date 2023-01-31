@@ -145,13 +145,7 @@ h6 {
 
 .main {
   width: 100vw;
-  height: 1000px;
-}
-
-@media (max-width: 1050px) {
-  .main {
-    height: 800px;
-  }
+  height: 100vh;
 }
 
 .main__logo {
@@ -167,13 +161,7 @@ h6 {
 
 .main__bg img {
   width: 100%;
-  height: 1000px;
-}
-
-@media (max-width: 1050px) {
-  .main__bg img {
-    height: 800px;
-  }
+  height: 100vh;
 }
 
 .main__texts {
@@ -329,7 +317,7 @@ h6 {
 .table {
   background-color: #5c9bd6;
   position: absolute;
-  top: 56%;
+  bottom: 10%;
   right: 10%;
   width: 500px;
   color: white;

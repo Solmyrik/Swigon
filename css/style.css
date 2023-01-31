@@ -173,19 +173,7 @@ h6 {
 
 .main__bg {
   width: 100%;
-  padding-bottom: 50%;
-}
-
-@media (max-width: 1200px) {
-  .main__bg {
-    padding-bottom: 67%;
-  }
-}
-
-@media (max-height: 500px) {
-  .main__bg {
-    padding-bottom: 45%;
-  }
+  height: 100vh;
 }
 
 .main__bg img {

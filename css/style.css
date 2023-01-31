@@ -143,6 +143,26 @@ h6 {
   }
 }
 
+.pc {
+  display: block;
+}
+
+@media (min-height: 700px) and (max-width: 1200px) {
+  .pc {
+    display: none;
+  }
+}
+
+.tablet {
+  display: none;
+}
+
+@media (min-height: 700px) and (max-width: 1200px) {
+  .tablet {
+    display: block;
+  }
+}
+
 .ibg {
   background-position: left;
   background-size: cover;

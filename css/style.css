@@ -634,3 +634,21 @@ h6 {
     font-size: 8px;
   }
 }
+
+@media (min-height: 700px) and (max-width: 1200px) {
+  .one {
+    width: 25px;
+  }
+}
+
+@media (min-height: 700px) and (max-width: 1200px) {
+  .two {
+    width: 38px;
+  }
+}
+
+@media (min-height: 700px) and (max-width: 1200px) {
+  .three {
+    width: 21px;
+  }
+}
